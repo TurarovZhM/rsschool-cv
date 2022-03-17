@@ -1,6 +1,6 @@
- ZHOMART TURAROV
+ # ZHOMART TURAROV
 
-<img src="assets/turarov.jpg" />
+<img src="assets/turarov.jpg" width="200" height="200" />
 
 ### Ph.D. candidate, TU Kaiserslautern, Germany
 
