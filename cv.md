@@ -1,5 +1,7 @@
  ZHOMART TURAROV
 
+<img src="assets/turarov.jpg" />
+
 ### Ph.D. candidate, TU Kaiserslautern, Germany
 
 ## Contacts
