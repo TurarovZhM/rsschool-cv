@@ -33,6 +33,7 @@
 
 ## Code example: _binary_search in Python_
 ```
+# Binary search algorithm from sorted list
 def binary_search(arr, x):
     lo = 0
     hi = len(arr) - 1
