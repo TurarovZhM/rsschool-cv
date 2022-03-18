@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>CV Turarov</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="header_li"><a href="#contacts">Contacts</a></li>
+                <li class="header_li"><a href="#education">Education</a></li>
+                <li class="header_li"><a href="#languages">Languages</a></li>
+                <li class="header_li"><a href="#itskills">IT skills</a></li>
+                <li class="header_li"><a href="#code_example">Code example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="column center">
+            <h1>Zhomart Turarov</h1>
+            <img class="profile_img" alt="profile img" src="./assets/turarov.jpg">
+        
+            <section id="about">
+                <h4>Ph.D. candidate in Applied Mathematics, TU Kaiserslautern, Germany</h4>
+            </section>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul class="list">
+                    <li class="li_item"><span class="bald_span">Phone: </span> +49-178-0000000</li>
+                    <li class="li_item"><span class="bald_span">Email: </span> <a href="mailto:j.turarov@gmail.com" target="_blank">j.turarov@gmail.com</a></li>
+                    <li class="li_item"><span class="bald_span">Discord: </span> Zhomart (@TurarovZhM)</li>
+                    <li class="li_item"><a href="https://www.linkedin.com/in/zhomart-turarov-b45580131/" target="_blank">LinkedIn</a></li>
+                    <li class="li_item"><a href="https://github.com/turarovzhm" target="_blank">GitHub</a></li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul class="list">
+                    <li class="li_item" style="margin-bottom:15px;"><span class="bald_span">2016-2018 </span> Masters degree in Applied Mathematics and Computer Science. M.V.Lomonosov Moscow State University, Moscow, Russia </li>
+                    <li class="li_item"><span class="bald_span">2012-2016 </span> Bachelor. Mathematical and Computer Modeling. L.N. Gumilyov Eurasian National University, Nur-Sultan, Kazakhstan </li>
+                </ul>
+            </section>
+
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul class="list">
+                    <li class="li_item">Kazakh</li>
+                    <li class="li_item">Russian</li>
+                    <li class="li_item">English (B2)</li>
+                    <li class="li_item">Deutsch (B1)</li>
+                </ul>
+            </section>
+           
+            <section id="itskills">
+                <h2>Skills</h2>
+                <ul class="list">
+                    <li class="li_item">Python</li>
+                    <li class="li_item">MS SQL</li>
+                    <li class="li_item">HTML5, CSS3</li>
+                    <li class="li_item">JavaScript Basics</li>
+                    <li class="li_item">SAS (Enterprise Guide, Miner)</li>
+                    <li class="li_item">Git, GitHub</li>
+                    <li class="li_item">LaTex</li>
+                </ul>
+            </section>
+            
+            <section id="code_example">
+                <h2>Code example</h2>
+                    <code>
+                        <pre> 
+# Binary search algorithm from sorted list
+def binary_search(arr, x):
+    lo = 0
+    hi = len(arr) - 1
+    mid = 0
+
+    while lo <= hi:
+        mid = (hi + lo) // 2
+        if arr[mid] < x:
+            lo = mid + 1
+        elif arr[mid] > x:
+            hi = mid - 1
+        else:
+            return mid
+    return -1
+    </pre>
+                    </code>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://rs.school/"><img class="footer__img" src="https://rs.school/images/rs_school_js.svg"
+                alt="img rsschool"></a>
+    </footer>
+</body>
+</html>
