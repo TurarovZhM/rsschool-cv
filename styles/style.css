@@ -1,0 +1,60 @@
+
+
+.header{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding:20px;
+    background-color: #b3d1ff;
+}
+.header_li {
+    margin: 0 10px;
+    padding-right: 47px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:#e6f3ff;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding:20px;
+}
+
+.menu{    
+    display: flex;
+    justify-content: center;
+}
+
+.profile_img{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+code {
+    padding: 0 20px;
+    font-family: monospace;
+    background-color: azure;
+    display: block;
+}
+
+.bald_span{
+    font-weight: bold;
+}
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding:20px;
+    background-color: #b3ffff;
+}
+.footer__img {
+    width: 60px;
+}
